@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2 style="color:green">Registration Form</h2>
+
+    <form>
+        <fieldset>
+
+<!-- First Name -->
+
+        <label for="fn">First Name <span style="color:red">*</span></label>
+        <input type="text" id="fn" placeholder="Enter your first name" required > <br><br>
+
+   <!-- Last Name -->
+        
+        <label for="ln">Last Name <span style="color:red">*</span></label>
+        <input type="text" id="ln" placeholder="Enter your last name" required> <br><br>
+    
+       <!-- Email -->
+
+        <label for="email">E-mail <span style="color:red">*</span></label>
+        <input type="email" id="email" placeholder="Enter your email" required><br><br>
+    
+       <!-- Password  -->
+       
+        <label for="Password">Password <span style="color:red">*</span></label>
+        <input type="Password" id="Password" placeholder="Enter your Password" required><br><br>
+    
+        <!-- Mobile  -->
+
+        <label for="Mobile">Mobile</label>
+        <input type="number" id="Mobile" placeholder="Phone number"><br><br>
+    
+        <!-- Date od Birth  -->
+
+        <label for="date">Date of Birth</label>
+        <input type="date" id="date"><br><br>
+
+       <!-- Select Country  -->
+
+        <label>Select your Country</label>
+
+        <select>
+            <option>Select Your Country</option>
+           <option>Bangladesh</option>
+           <option>india</option>
+           <option>Pakistan</option>
+          <option>Srilanka</option>
+        </select> <br><br>
+    
+        <!-- Gender  -->
+
+        <label for="Gender">Gender</label>
+        <input type="radio" id="Male" name="fav_language">
+        <label for="Male">Male</label>
+
+        <input type="radio" id="Female" name="fav_language">
+        <label for="Female">Female</label>
+
+        <input type="radio" id="Others" name="fav_language">
+        <label for="Others">Others</label><br><br>
+
+       <!-- Files  -->
+
+        <label for="">Select files</label>
+        <input type="file">
+        <br><br>
+
+       <!-- Address -->
+
+        <label for="Ad">Address</label>
+        <textarea name="message" rows="10" cols="30">
+            Enter your Address
+        </textarea><br><br>
+
+        <!-- Checkbox  -->
+
+        <input type="checkbox">
+        <label>I agree to the terms & conditions and privacy policy</label>
+        <br><br>
+
+        <!-- Submit  -->
+
+        <input type="submit" value="Submit"><br><br>
+        
+       <!-- Reset  -->
+       
+        <input type="reset">
+
+    </fieldset>
+
+
+    </form>
+</body>
+</html>
